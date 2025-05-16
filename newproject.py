@@ -11,6 +11,11 @@ from sklearn.linear_model import LinearRegression
 
 st.set_page_config(layout="wide")
 st.title("📦 AI + IoT + ETA + Геокарта: Жүк қауіпін болжау және ТМТМ маршруты")
+st.markdown("""
+<div style='border: 2px solid red; padding: 10px; border-radius: 8px; color: red; font-size: 18px;'>
+🧑‍💻 <b>Жобаны дайындаған: Нұрбол Жанабаев</b>
+</div>
+""", unsafe_allow_html=True)
 
 # --- 1. Генерация IoT-данных ---
 np.random.seed(0)
@@ -221,3 +226,8 @@ for _, row in filtered_df.iterrows():
     ).add_to(m)
 
 st_folium(m, width=1000, height=600)
+st.markdown("""
+<div style='background-color: #fff3cd; padding: 10px; border-left: 5px solid #ffa502; font-size: 18px;'>
+<b>🧑‍💻 Жобаны дайындаған:</b> Нұрбол Жанабаев
+</div>
+""", unsafe_allow_html=True)
