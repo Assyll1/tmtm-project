@@ -13,7 +13,7 @@ st.set_page_config(layout="wide")
 st.title("📦 AI + IoT + ETA + Геокарта: Жүк қауіпін болжау және ТМТМ маршруты")
 st.markdown("""
 <div style='border: 2px solid red; padding: 10px; border-radius: 8px; color: red; font-size: 18px;'>
-🧑‍💻 <b>Жобаны дайындаған: Нұрбол Жанабаев</b>
+💻 <b>Жобаны дайындаған: Асыл Мырзатаева </b>
 </div>
 """, unsafe_allow_html=True)
 
@@ -228,6 +228,6 @@ for _, row in filtered_df.iterrows():
 st_folium(m, width=1000, height=600)
 st.markdown("""
 <div style='background-color: #fff3cd; padding: 10px; border-left: 5px solid #ffa502; font-size: 18px;'>
-<b>🧑‍💻 Жобаны дайындаған:</b> Нұрбол Жанабаев
+<b>💻 Жобаны дайындаған:</b> Мырзатаева Асыл
 </div>
 """, unsafe_allow_html=True)
